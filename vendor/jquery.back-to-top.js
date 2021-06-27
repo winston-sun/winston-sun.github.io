@@ -23,5 +23,6 @@ $(document).ready(function($){
             scrollTop: 0 ,
             }, scroll_top_duration
         );
+        closeModal();
     });
 });
