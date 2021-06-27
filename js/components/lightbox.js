@@ -44,6 +44,8 @@ function plusSlides(n, slideshow) {
 }
 
 function currentSlide(n, slideshow) {
+    document.getElementById('player1').pause();
+    document.getElementById('player2').pause();
     showSlides(slideshow.currentSlideIndex = n, slideshow);
 }
 
