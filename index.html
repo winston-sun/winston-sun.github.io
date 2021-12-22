@@ -89,12 +89,12 @@
                         <div class="col-sm-3 sm-margin-b-30">
                             <div class="text-right sm-text-left">
                                 <h2 class="margin-b-0">About Me</h2>
-                                <p>Intro</p>
+                                <!--p>Intro</p-->
                             </div>
                         </div>
                         <div class="col-sm-8 col-sm-offset-1">
                             <div class="margin-b-60">
-                                <p style="font-size:17px"> Driven and goal-oriented undergraduate student in the Edward S. Rogers Sr. Department of Electrical and Computer Engineering at University of Toronto. I'm passionate about taking on challenges and using engineering thinking and knowledge to solve real-world problems. My current focuses are embedded systems and computer architecture. </p>
+                                <p style="font-size:17px"> Driven and goal-oriented undergraduate student in the Edward S. Rogers Sr. Department of Electrical and Computer Engineering at University of Toronto. I'm passionate about taking on challenges and using engineering thinking and knowledge to solve real-world problems. My current focuses are digital design and hardware systems. </p>
                                 <br>
                                 <!--img src="./img/me.JPG" alt="Winston's photo" style="width: 55vw; min-width: 330px;"-->
                                 <div id="slideshow0" class="slideshow-container">
@@ -181,6 +181,54 @@
                                             <h3> Arduino, TensorFlow </h3>
                                             <p style="font-size:17px"> • Implemented keyword spotting and gesture recognition and created an end-to-end pipeline from data collection/pre-processing to model training, converting model to TF Lite/Micro for deployment on Arduino </p>
                                             <br>
+                                            
+                                            <h2> KUKA Robotic Manipulator </h2>
+                                            <h3> MATLAB </h3>
+                                            <p style="font-size:17px"> • Drawing with forward kinematics </p>
+                                            <p style="font-size:17px"> • Motion planning with obstacle avoidance </p>
+                                            <br>
+                                            
+                                            
+                                            <!-- Video Gallery-->
+                                            <img src="./img/KUKA/KUKA.png" width="70%" onclick="openModal('KUKA');currentSlide(1, slideshow5)" class="hover-shadow cursor">
+                                                
+                                                <div id="KUKA" class="modal">
+                                                    <div class="modal-content">
+                                                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                                                        <div id="slideshow5" class="slideshow-container">
+                                                            <div class="mySlides">
+                                                                <div class="numbertext">1 / 2</div>
+                                                                <center><video id="player2" style="max-height: 600px; width: 100%;" preload="true" alt="Motion planning and drawing demo" controls>
+                                                                    <source src="./img/KUKA/KUKA.mp4" type="video/mp4">
+                                                                        Your browser does not support the video tag.
+                                                                        </video></center>
+                                                            </div>
+
+                                                            <div class="numbertext">2 / 2</div>
+                                                            <center><video id="player2" style="max-height: 500px; width: 70%;" preload="true" alt="Flappy bird demo" controls>
+                                                                <source src="./img/flappy_bird/flappy_bird.mp4" type="video/mp4">
+                                                                    Your browser does not support the video tag.
+                                                            </video></center>
+
+                                                            
+                                                            
+                                                            <a class="prev" onclick="plusSlides(-1,slideshow5)">&#10094;</a>
+                                                            <a class="next" onclick="plusSlides(1, slideshow5)">&#10095;</a>
+                                                            
+                                                            
+                                                            <div style="text-align:center">
+                                                                <span class="dot" onclick="currentSlide(1, slideshow5)"></span>
+                                                                <span class="dot" onclick="currentSlide(2, slideshow5)"></span>
+                                                                <span class="dot" onclick="currentSlide(3, slideshow5)"></span>
+                                                            </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <br><br>
+                                            
+                                            
+                                            
+                                            
                                             
                                             <h2>
                                                 <a href="https://drive.google.com/drive/folders/1Yh27_iZvKIoJbdYyI9SF7gNNlZq_xb0_?usp=sharing" target="_blank" rel="noopener noreferrer">X-ray Diagnosis on Bacterial and Viral Pneumonia </a>
@@ -355,7 +403,7 @@
                                             <a href="https://www.analog.com/en/about-adi/news-room/press-releases/2021/3-25-2021-analog-devices-announces-complete-radio-platform-5g-o-ran-ecosystem.html/" target="_blank" rel="noopener noreferrer">Embedded System Engineer, Analog Devices</a>
                                         </h2>
                                         <h3> Jul 2020 - Aug 2021 </h3>
-                                        <h3> C, Verilog, MATLAB, Quartus Platform Designer, Visual Studio gdbserver </h3>
+                                        <h3> C, Verilog, MATLAB, Quartus Platform Designer, Visual Studio, gdbserver </h3>
                                         <p style="font-size:17px"> • Worked on 5G 8T8R ORAN O-RU development that spans from optical interface to transceiver </p>
                                         <p style="font-size:17px"> • Developed hardware, bare metal codes and HAL embedded software to connect and link up components of the radio chain, involving and real-time data management and manipulation (JESD204C, 10/25G Ethernet) and communication protocols (SPI, I2C) to configure clock and transceiver chips </p>
                                         <p style="font-size:17px"> • Designed standalone NiOS system and functional software tests on Intel FPGA to de-risk various hardware components on the board during bring-up phase </p>
@@ -477,10 +525,11 @@
                                     <div class="margin-b-60">
                                         <!--p style="font-size:20px"> ECE216 SIGNALS AND SYSTEMS </p>
                                         <p style="font-size:20px"> ECE231 INTRODUCTION TO ELECTRONICS </p>
-                                        <p style="font-size:20px"> ECE241 DIGITAL SYSTEMS </p-->
+                                        <p style="font-size:20px"> ECE241 DIGITAL SYSTEMS </p>
                                         <p style="font-size:20px"> ECE243 COMPUTER ORGANIZATION </p>
-                                        <p style="font-size:20px"> ECE297 COMMUNICATION AND DESIGN </p>
+                                        <p style="font-size:20px"> ECE297 COMMUNICATION AND DESIGN </p-->
                                         <p style="font-size:20px"> ECE302 PROBABILITY AND APPLICATIONS </p>
+                                        <p style="font-size:20px"> ECE311 INTRO TO CONTROL SYSTEMS </p>
                                         <p style="font-size:20px"> ECE334 DIGITAL ELECTRONICS </p>
                                         <p style="font-size:20px"> ECE342 COMPUTER HARDWARE </p>
                                         <p style="font-size:20px"> ECE344 OPERATING SYSTEMS </p>
@@ -489,11 +538,17 @@
                                         <p style="font-size:20px"> ECE368 PROBABILISTIC REASONING </p>
                                         <p style="font-size:20px"> ECE421 INTRODUCTION TO MACHINE LEARNING </p>
                                         <p style="font-size:20px"> ECE470 ROBOT MODELING AND CONTROL </p>
+                                        <p style="font-size:20px"> ECE496 DESIGN PROJECT </p>
                                         <p style="font-size:20px"> ECE532 DIGITAL SYSTEMS DESIGN </p>
+                                        <p style="font-size:20px"> APS360 APPLIED FUNDAMENTALS OF MACHINE LEARNING </p>
                                         <p style="font-size:20px"> CSC384 INTRODUCTION TO ARTIFICIAL INTELLIGENCE </p>
-                                        <p style="font-size:20px"> APS502 FINANCIAL ENGINEERING </p>
                                         <p style="font-size:20px"> MAT290 ADVANCED ENG. MATHEMATICS </p>
                                         <p style="font-size:20px"> MAT291 CALCULUS III </p>
+                                        <p style="font-size:20px"> JRE300 FUND. OF ACCOUNTING AND FINANCE </p>
+                                        <p style="font-size:20px"> JRE410 MARKETS AND COMPETITIVE STRATEGY </p>
+                                        <p style="font-size:20px"> JRE420 PEOPLE MANAGEMENT AND ORGINAZATION BEHAVIOUR </p>
+                                        <p style="font-size:20px"> ECE472 ENGINEERING ECONOMIC ANALYSIS AND ENTREPRENEURSHIP </p>
+                                        <p style="font-size:20px"> APS502 FINANCIAL ENGINEERING </p>
                                         <br>
                                     </div>
                                 </div>
@@ -509,7 +564,7 @@
                                     <div class="col-sm-3 sm-margin-b-30">
                                         <div class="text-right sm-text-left">
                                             <h2 class="margin-b-0">Resume</h2>
-                                            <p>Last updated 07/10/21 </p>
+                                            <p>Last updated 12/21/21 </p>
                                         </div>
                                     </div>
                                     <div class="col-sm-8 col-sm-offset-1">
@@ -564,11 +619,11 @@
                             <div class="row">
                                 <div class="col-md-3 col-xs-6 md-margin-b-30">
                                     <h5>Location</h5>
-                                    <a href="#">Toronto, ON</a>
+                                    <a href="https://www.google.com/maps/place/Toronto,+ON/" target="_blank">Toronto, ON</a>
                                 </div>
                                 <div class="col-md-3 col-xs-6 md-margin-b-30">
                                     <h5>Phone</h5>
-                                    <a href="#">647-676-1146</a>
+                                    <a href="tel:647-676-1146">647-676-1146</a>
                                 </div>
                                 <div class="col-md-3 col-xs-6">
                                     <h5>Email</h5>
