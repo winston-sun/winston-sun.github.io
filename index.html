@@ -65,8 +65,8 @@
                     <div class="col-sm-6">
                         <div class="promo-block-divider">
                             <h1 class="promo-block-title">Winston Sun</h1>
-                            <p class="promo-block-text">Fourth-year student at University of Toronto </p>
-                            <p class="promo-block-text">Electrical and Computer Engineering </p>
+                            <p class="promo-block-text"> M.Eng. in Electrical Engineering and Computer Science, University of California, Berkeley </p>
+                            <p class="promo-block-text"> B.A.Sc. in Electrical and Computer Engineering, University of Toronto </p>
                         </div>
                         <ul class="list-inline">
                             <li><a href="https://www.facebook.com/profile.php?id=100007381366772" target="_blank" class="social-icons"><i class="icon-social-facebook"></i></a></li>
@@ -94,32 +94,37 @@
                         </div>
                         <div class="col-sm-8 col-sm-offset-1">
                             <div class="margin-b-60">
-                                <p style="font-size:17px"> Driven and goal-oriented undergraduate student in the Edward S. Rogers Sr. Department of Electrical and Computer Engineering at University of Toronto. I'm passionate about taking on challenges and using engineering thinking and knowledge to solve real-world problems. My current focuses are digital design and hardware systems. </p>
+                                <p style="font-size:17px"> Driven and goal-oriented graduate student in the Department of Electrical Engineering and Computer Science at University of California, Berkeley. I'm passionate about taking on challenges and using engineering thinking and knowledge to solve real-world problems. My current focuses are digital design, embedded systems, and robotics. </p>
                                 <br>
                                 <!--img src="./img/me.JPG" alt="Winston's photo" style="width: 55vw; min-width: 330px;"-->
                                 <div id="slideshow0" class="slideshow-container">
                                     <div class="mySlides">
-                                        <div class="numbertext">1 / 5</div>
+                                        <div class="numbertext">1 / 6</div>
                                         <center><img src="./img/me.png" alt="Winston's photo" style="width: 55vw; min-width: 330px;"></center>
                                     </div>
                                     
                                     <div class="mySlides">
-                                        <div class="numbertext">2 / 5</div>
+                                        <div class="numbertext">2 / 6</div>
                                         <center><img src="./img/me1.png" alt="Winston's photo" style="width: 55vw; min-width: 330px;"></center>
                                     </div>
                                     
                                     <div class="mySlides">
-                                        <div class="numbertext">3 / 5</div>
+                                        <div class="numbertext">3 / 6</div>
                                         <center><img src="./img/me2.png" alt="Winston's photo" style="width: 55vw; min-width: 330px;"></center>
+                                    </div>
+									
+									<div class="mySlides">
+                                        <div class="numbertext">4 / 6</div>
+                                        <center><img src="./img/me3.png" alt="Winston's photo" style="width: 55vw; min-width: 330px;"></center>
                                     </div>
                                     
                                     <div class="mySlides">
-                                        <div class="numbertext">4 / 5</div>
+                                        <div class="numbertext">5 / 6</div>
                                         <center><img src="./img/me4.png" alt="Winston's photo" style="width: 55vw; min-width: 330px;"></center>
                                     </div>
                                     
                                     <div class="mySlides">
-                                        <div class="numbertext">5 / 5</div>
+                                        <div class="numbertext">6 / 6</div>
                                         <center><img src="./img/me5.png" alt="Winston's photo" style="width: 55vw; min-width: 330px;"></center>
                                     </div>
                                     
@@ -129,6 +134,7 @@
                                         <span class="dot" onclick="currentSlide(3, slideshow0)"></span>
                                         <span class="dot" onclick="currentSlide(4, slideshow0)"></span>
                                         <span class="dot" onclick="currentSlide(5, slideshow0)"></span>
+										<span class="dot" onclick="currentSlide(6, slideshow0)"></span>
                                     </div>
                                 </div>
                                 <br>
@@ -156,7 +162,7 @@
                                     <img src="./icons/csharp/csharp-line.svg" alt="C#" height="70" width="80">
                                     <img src="./icons/dot-net/dot-net-original-wordmark.svg" alt=".Net" height="70" width="80">
                                     <img src="./icons/python/python-original.svg" alt="Python" height="70" width="80">
-                                    <img src="./icons/ARM/ASM.svg" alt="html" height="70" width="80">
+                                    <img src="./icons/ARM/ASM.svg" alt="ARM ASM" height="70" width="80">
                                     <img src="./icons/FPGA/FPGA.svg" alt="FPGA" height="70" width="80">
                                     <img src="./icons/MATLAB/MATLAB.png" alt="MATLAB" height="70" width="80">
                                 <br>
@@ -176,8 +182,85 @@
                                         </div>
                                     </div>
                                     <div class="col-sm-8 col-sm-offset-1">
-                                        <div class="margin-b-60">
-                                            <h2> TinyML Magic Wand Project </h2>
+                                        <div class="margin-b-60"> 
+										
+											<h2> 
+												<a href="https://github.com/winston-sun/Spam-Detection-System-over-multi-FPGA-Network-" target="_blank" rel="noopener noreferrer">Spam Detection System over multi-FPGA Network</a>
+											</h2>
+                                            <h3> Verilog, C </h3>
+                                            <p style="font-size:17px"> • Designed both the hardware and software system and utilized 3 FPGAs, communicating over the network through the TCP/IP protocol. </p>
+											<p style="font-size:17px"> • Implemented the spam detection probabilistics model and designed the inference logic on FPGA. </p>
+                                            <br>
+											
+											<!-- Photo Gallery-->
+                                            <img src="./img/spam_detection/System_Diagram.jpg" width="80%" onclick="openModal('spam_detection');currentSlide(1, slideshow_spam)" class="hover-shadow cursor">
+
+                                            
+                                            <div id="spam_detection" class="modal">
+                                                <div class="modal-content">
+                                                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                                                    <div id="slideshow_spam" class="slideshow-container">
+                                                        <div class="mySlides">
+                                                            <div class="numbertext">1 / 4</div>
+                                                            <center><img src="./img/spam_detection/System_Diagram.jpg" alt="System Diagram" style="max-width:90%"></center>
+                                                        </div>
+                                                        
+                                                        <div class="mySlides">
+                                                            <div class="numbertext">2 / 4</div>
+                                                            <center><img src="./img/spam_detection/Client_FPGA_Block_Diagram.jpg" alt="Client FPGA Block Diagram" style="max-width:90%"></center>
+                                                        </div>
+                                                        
+                                                        <div class="mySlides">
+                                                            <div class="numbertext">3 / 4</div>
+                                                            <center><img src="./img/spam_detection/Server_FPGA_Block_Diagram.jpg" alt="Server FPGA Block Diagram" style="max-width:90%"></center>
+                                                        </div>
+														
+														<div class="mySlides">
+                                                            <div class="numbertext">4 / 4</div>
+                                                            <center><img src="./img/spam_detection/GUI.jpg" alt="Application GUI" style="max-width:90%"></center>
+                                                        </div>
+                                                        
+                                                        <a class="prev" onclick="plusSlides(-1,slideshow_spam)">&#10094;</a>
+                                                        <a class="next" onclick="plusSlides(1, slideshow_spam)">&#10095;</a>
+                                                        
+                                                        
+                                                        <div style="text-align:center">
+                                                            <span class="dot" onclick="currentSlide(1, slideshow_spam)"></span>
+                                                            <span class="dot" onclick="currentSlide(2, slideshow_spam)"></span>
+                                                            <span class="dot" onclick="currentSlide(3, slideshow_spam)"></span>
+															<span class="dot" onclick="currentSlide(4, slideshow_spam)"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br><br>
+											
+                                            <h2> 
+												<a href="https://github.com/tapasvipatel/CRDT-Library" target="_blank" rel="noopener noreferrer">Distributed Systems CRDT Library Design</a>
+											</h2>
+                                            <h3> C++ </h3>
+                                            <p style="font-size:17px"> • Designed a CRDT library with functional and performance benchmark to achieve strong eventual consistency and low merge latency over the network. </p>
+											<p style="font-size:17px"> • Created a Trello-like project management application using the CRDT library to showcase the advantages of a decentralized distributed system approach instead of a server-based approach. </p>
+											<br>
+											
+											<!-- Photo Gallery-->
+                                            <img src="./img/CRDT/poster.jpg" width="80%" onclick="openModal('crdt');currentSlide(1,slideshow_crdt)" class="hover-shadow cursor">
+
+                                            
+                                            <div id="crdt" class="modal">
+                                                <div class="modal-content">
+                                                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                                                    <div id="slideshow_crdt" class="slideshow-container">
+                                                        <div class="mySlides">
+                                                            <div class="numbertext">1 / 1</div>
+                                                            <center><img src="./img/CRDT/poster.jpg" alt="System Diagram" style="max-height:550px; max-width:90%"></center>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br><br>
+											
+											<h2> TinyML Magic Wand Project </h2>
                                             <h3> Arduino, TensorFlow </h3>
                                             <p style="font-size:17px"> • Implemented keyword spotting and gesture recognition and created an end-to-end pipeline from data collection/pre-processing to model training, converting model to TF Lite/Micro for deployment on Arduino </p>
                                             <br>
@@ -223,7 +306,7 @@
                                             <p style="font-size:17px"> • Using convolutional neural network and transfer learning to create multiclass classification </p>
                                             <br>
                                             <!-- Photo Gallery-->
-                                            <img src="./img/Pneumonia_ML/CNN_model.png" width="80%" onclick="openModal('CNN_model');currentSlide(1)" class="hover-shadow cursor">
+                                            <img src="./img/Pneumonia_ML/CNN_model.png" width="80%" onclick="openModal('CNN_model');currentSlide(1,slideshow1)" class="hover-shadow cursor">
 
                                             
                                             <div id="CNN_model" class="modal">
@@ -289,7 +372,7 @@
                                             <p style="font-size:17px"> • Applied Dijkstra and A* algorithm, local search, and 3-opt </p>
                                             <br>
                                             <!-- Video Gallery-->
-                                            <img src="./img/map_application/map_application_cover.png" width="80%"  onclick="openModal('map_application');currentSlide(1)" class="hover-shadow cursor">
+                                            <img src="./img/map_application/map_application_cover.png" width="80%"  onclick="openModal('map_application');currentSlide(1,slideshow2)" class="hover-shadow cursor">
 
                                             
                                             <div id="map_application" class="modal">
@@ -340,7 +423,7 @@
                                             <p style="font-size:17px"> • Developed bare metal code on FPGA and ARM core using VGA display and PS2 controller </p>
                                             <br>
                                             <!-- Video Gallery-->
-                                            <img src="./img/flappy_bird/flappy_bird_cover.png" width="70%" onclick="openModal('flappy_bird');currentSlide(1)" class="hover-shadow cursor">
+                                            <img src="./img/flappy_bird/flappy_bird_cover.png" width="70%" onclick="openModal('flappy_bird');currentSlide(1,slideshow3)" class="hover-shadow cursor">
                                             
                                             <div id="flappy_bird" class="modal">
                                                 <div class="modal-content">
@@ -364,7 +447,7 @@
                                             
                                             <h2> Piano Tile Game Hardware Design </h2>
                                             <h3> Verilog </h3>
-                                            <p style="font-size:17px"> • Applied the knowledge of VGA adapter, audio controller, and Finite State Machine </p>
+                                            <p style="font-size:17px"> • Applied the knowledge of VGA adapter, audio controller, and Finite State Machine on Intel FPGA </p>
                                             <br>
                                         </div>
                                     </div>
@@ -455,7 +538,7 @@
                                             <p style="font-size:17px"> • Prepare and maintain the budget and all financial procedures </p>
                                             
                                             <!-- Photo Gallery-->
-                                            <img src="./img/SEA/banner.png" width="70%" onclick="openModal('SEA_conference');currentSlide(1)" class="hover-shadow cursor">
+                                            <img src="./img/SEA/banner.png" width="70%" onclick="openModal('SEA_conference');currentSlide(1,slideshow4)" class="hover-shadow cursor">
                                             
                                             <div id="SEA_conference" class="modal">
                                                 <div class="modal-content">
@@ -605,7 +688,7 @@
                             <div class="row">
                                 <div class="col-md-3 col-xs-6 md-margin-b-30">
                                     <h5>Location</h5>
-                                    <a href="https://www.google.com/maps/place/Toronto,+ON/" target="_blank">Toronto, ON</a>
+                                    <a href="https://www.google.com/maps/place/Berkeley,+CA/" target="_blank">Berkeley, CA</a>
                                 </div>
                                 <div class="col-md-3 col-xs-6 md-margin-b-30">
                                     <h5>Phone</h5>
@@ -613,7 +696,7 @@
                                 </div>
                                 <div class="col-md-3 col-xs-6">
                                     <h5>Email</h5>
-                                    <a href="mailto:winston.sun@mail.utoronto.ca">winston.sun@mail.utoronto.ca</a>
+                                    <a href="mailto:winstonsun98@gmail.com">winstonsun98@gmail.com</a>
                                 </div>
                             </div>
                         </div>
