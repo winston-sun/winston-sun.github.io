@@ -253,7 +253,7 @@
                                                     <div id="slideshow_crdt" class="slideshow-container">
                                                         <div class="mySlides">
                                                             <div class="numbertext">1 / 1</div>
-                                                            <center><img src="./img/CRDT/poster.jpg" alt="System Diagram" style="max-height:90%"></center>
+                                                            <center><img src="./img/CRDT/poster.jpg" alt="System Diagram" style="max-height:550px; max-width:90%"></center>
                                                         </div>
                                                     </div>
                                                 </div>
