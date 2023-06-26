@@ -65,8 +65,9 @@
                     <div class="col-sm-6">
                         <div class="promo-block-divider">
                             <h1 class="promo-block-title">Winston Sun</h1>
-                            <p class="promo-block-text"> M.Eng. in Electrical Engineering and Computer Science, University of California, Berkeley </p>
-                            <p class="promo-block-text"> B.A.Sc. in Electrical and Computer Engineering, University of Toronto </p>
+                            <p class="promo-block-text"> Software Engineer at Apple </p>
+                            <p class="promo-block-text"> M.Eng. in EECS, University of California, Berkeley </p>
+                            <p class="promo-block-text"> B.A.Sc. in ECE, University of Toronto </p>
                         </div>
                         <ul class="list-inline">
                             <li><a href="https://www.facebook.com/profile.php?id=100007381366772" target="_blank" class="social-icons"><i class="icon-social-facebook"></i></a></li>
@@ -94,7 +95,16 @@
                         </div>
                         <div class="col-sm-8 col-sm-offset-1">
                             <div class="margin-b-60">
-                                <p style="font-size:17px"> Driven and goal-oriented graduate student in the Department of Electrical Engineering and Computer Science at University of California, Berkeley. I'm passionate about taking on challenges and using engineering thinking and knowledge to solve real-world problems. My current focuses are embedded systems, digital design, and robotics. </p>
+                                <p style="font-size:17px"> I am interested in embedded systems and hardware. I have worked on several design projects, including a 5G open radio unit (ORU) system, a spam detection system over a multi-FPGA network and a high-dimensional system-on-chip for reconfigurable AI at the edge. Those industrial and academic experiences gave me a deep understanding of system design and honed my skills in many areas.
+                                </p>
+                                <p style="font-size:17px"> My skills include: </p>
+                                <p style="font-size:17px"> • Embedded systems design (software and hardware) </p>
+                                <p style="font-size:17px"> •  C/C++ programming </p>
+                                <p style="font-size:17px"> •  FPGA development (High-speed data interface, DDR, communication protocols, etc.) </p>
+                                <p style="font-size:17px"> •  Digital design </p>
+                                <p style="font-size:17px"> •  Robotics and Mechatronics </p>
+                                <p style="font-size:17px"> •  Artificial intelligence and machine learning </p>
+
                                 <br>
                                 <!--img src="./img/me.JPG" alt="Winston's photo" style="width: 55vw; min-width: 330px;"-->
                                 <div id="slideshow0" class="slideshow-container">
@@ -191,6 +201,82 @@
                                         <div class="margin-b-60"> 
 										
 											<h2> 
+												<a href="https://docs.google.com/document/d/e/2PACX-1vTg14XVbxxlCFMdYGPjxREZEH9RB5YXkRps9DCPBI5QhV9saOqNjHh01hfen-KyC9ddn6lxKqvF-oKz/pub" target="_blank" rel="noopener noreferrer"> Dynamic Data Pipelining System </a>
+											</h2>
+                                            <h3> CPP, MPI, OpenMP</h3> 
+                                            <p style="font-size:17px"> •  Built an efficient data pipelining system that can dynamically create/scale data pipelines and process data parallelly based on predefined data/task dependencies. </p>
+											<p style="font-size:17px"> •  Used the parallel computing techniques such as MPI and OpenMP to optimize the performance in terms of strong and weak scaling. </p>
+											<br>
+                                            
+                                            <!-- Photo Gallery-->
+                                            <img src="./img/data_pipelining/task_flow.png" width="80%" onclick="openModal('data_pipelining');currentSlide(1,slideshow_data_pipelining)" class="hover-shadow cursor">
+
+                                            
+                                            <div id="data_pipelining" class="modal">
+                                                <div class="modal-content">
+                                                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                                                    <div id="slideshow_data_pipelining" class="slideshow-container">
+                                                        <div class="mySlides">
+                                                            <div class="numbertext">1 / 1</div>
+                                                            <center><img src="./img/data_pipelining/task_flow.png" alt="Task Flow" style="max-height:550px; max-width:90%"></center>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br><br>
+
+                                            <h2> 
+												<a href="https://drive.google.com/file/d/192ezNLKrhTdXDAARiDwnAuYslDbyPJot/view?usp=sharing" target="_blank" rel="noopener noreferrer"> High-dimensional Computing SoC Design </a>
+											</h2>
+                                            <h3> RISC-V, Chisel, Verilog, C, Python </h3>
+                                            <p style="font-size:17px"> •  Designed a high-dimensional processing unit to perform AI-tasks (e.g., classification, regression, etc.) and integrated with a RISC-V core. </p>
+											<p style="font-size:17px"> •  Created custom ISA that runs on RISC-V and wrote embedded software that controls the acceleator. </p>
+                                            <p style="font-size:17px"> •  Used a python script for code generation of large scale AI application such as language recognition. </p>
+											<br>
+
+                                            <!-- Photo Gallery-->
+                                            <img src="./img/HPU/HPU_architecture.png" width="50%" onclick="openModal('hpu');currentSlide(1,slideshow_hpu)" class="hover-shadow cursor">
+
+                                            
+                                            <div id="hpu" class="modal">
+                                                <div class="modal-content">
+                                                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                                                    <div id="slideshow_hpu" class="slideshow-container">
+                                                        <div class="mySlides">
+                                                            <div class="numbertext">1 / 1</div>
+                                                            <center><img src="./img/HPU/HPU_architecture.png" alt="HPU Architecture" style="max-height:550px; max-width:90%"></center>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br><br>
+
+                                            
+                                            <h2> 
+												<a href="https://github.com/winston-sun/embedded_system_design" target="_blank" rel="noopener noreferrer">Reading Glove</a>
+											</h2>
+                                            <h3> Arduino, C </h3>
+                                            <p style="font-size:17px"> •  Designed a glove with an Arduino and a camera mounted to the palm such that it can be hovered over text to have the text read out to them via a speaker </p>
+											<p style="font-size:17px"> •  Used BLE to configure the camera, IMU to detect the movement and orientation, and UART to transmit images</p>
+                                            <p style="font-size:17px"> •  Finite state machine runs on the Arduino to control the reading glove logic.</p>
+                                            <br>
+                                            
+                                            <iframe width="560" height="315" src="https://youtube.com/embed/Qz8knzH6Gwc" title="Reading Glove" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+											<br>
+
+                                            <h2> 
+												<a href="https://sites.google.com/view/cookingsawyer/home" target="_blank" rel="noopener noreferrer">Cooking Sawyer</a>
+											</h2>
+                                            <h3> ROS, Python, OpenCV </h3>
+											<p style="font-size:17px"> • Identified ingredients at random locations on the table using computer vision (colour thresholding). </p>
+											<p style="font-size:17px"> • Used AR tags to calculate the relative coordinates between the ingredents, gripper location, and preperation area. </p>
+                                            <p style="font-size:17px"> • Followed a desired recipe to assemble a customized burger using motion planning. </p>
+                                            <br>
+                                            
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/wrUc_iYrePo" title="Cooking Sawyer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            <br>
+
+                                            <h2> 
 												<a href="https://github.com/winston-sun/Spam-Detection-System-over-multi-FPGA-Network-" target="_blank" rel="noopener noreferrer">Spam Detection System over multi-FPGA Network</a>
 											</h2>
                                             <h3> Verilog, C </h3>
@@ -626,6 +712,8 @@
                                         <p style="font-size:20px"> APS502 FINANCIAL ENGINEERING </p>
                                         <p style="font-size:20px"> EECS206A INTRO TO ROBOTICS </p>
                                         <p style="font-size:20px"> EECS249A INTRO TO EMBEDDED SYSTEMS </p>
+                                        <p style="font-size:20px"> EECS249B EMBEDDED SYSTEMS DESIGN: MODELING, ANALYSIS, AND SYNTHESIS </p>
+                                        <p style="font-size:20px"> CS267 APPLICATIONS OF PARALLEL COMPUTERS </p>
                                         <br>
                                     </div>
                                 </div>
@@ -641,7 +729,7 @@
                                     <div class="col-sm-3 sm-margin-b-30">
                                         <div class="text-right sm-text-left">
                                             <h2 class="margin-b-0">Resume</h2>
-                                            <p>Last updated 09/17/2022 </p>
+                                            <p>Last updated 06/26/2023 </p>
                                         </div>
                                     </div>
                                     <div class="col-sm-8 col-sm-offset-1">
@@ -696,7 +784,7 @@
                             <div class="row">
                                 <div class="col-md-3 col-xs-6 md-margin-b-30">
                                     <h5>Location</h5>
-                                    <a href="https://www.google.com/maps/place/Berkeley,+CA/" target="_blank">Berkeley, CA</a>
+                                    <a href="https://www.google.com/maps/place/Boston,+MA/" target="_blank">Boston, MA</a>
                                 </div>
                                 <div class="col-md-3 col-xs-6 md-margin-b-30">
                                     <h5>Phone</h5>
